@@ -1,0 +1,33 @@
+.head {
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+    &__navigation{
+        display: flex;
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 94px;
+        margin-left: 465px;
+    }
+
+    &__logo{
+        height: 65.214px;
+    }
+
+    &__link{
+        color: $text-colorv2;
+        font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 175% */
+letter-spacing: 0.2px;
+
+        &:hover{
+            color: $text-hover;
+        }
+    }
+}
